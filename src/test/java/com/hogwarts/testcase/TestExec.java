@@ -33,6 +33,7 @@ public class TestExec {
 //        throw new SkipException("");
     }
 
+
     @Test(groups = {"BaseCase"}, description = "验证北京天气返回城市名称是否正确")
     public void getBeiJing_Succ() throws IOException {
         exp_city = "北京";
